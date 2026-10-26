@@ -73,3 +73,5 @@ logs/
 # These are large downloaded model files; keep them out of git.
 .cache/
 ~/.cache/huggingface/
+docs/guide.md
+docs/guide2.md

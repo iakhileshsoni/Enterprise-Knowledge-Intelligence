@@ -1,0 +1,75 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── Generated Data (runtime, NOT source-controlled) ──────────────────────────
+data/uploads/
+data/vector_index/
+data/app.db
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# ── Alembic (keep alembic.ini and env.py; exclude generated databases) ────────
+# versions/ is source-controlled — migration scripts belong in git
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Testing / Coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# Do not ignore docker-compose.yml — it is part of the project.
+
+# ── HuggingFace / Sentence-Transformers cache ─────────────────────────────────
+# These are large downloaded model files; keep them out of git.
+.cache/
+~/.cache/huggingface/
